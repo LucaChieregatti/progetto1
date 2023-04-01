@@ -7,7 +7,7 @@ export function Domanda1(){
                     marginBottom= '2em'
                     className='box1'>
                     <RadioGroup>
-                    <VStack >
+                    <VStack>
                         <Text color='black' fontSize='30px' >1. Da quanto tempo è cliente Tod's?</Text>
                         <Radio value='1' size='md' name='1' colorScheme='gray' isRequired>
                             <Text color='black'>È il mio primo acquisto</Text>
