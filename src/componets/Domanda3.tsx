@@ -9,7 +9,7 @@ export function Domanda3(){
                     <RadioGroup>
                     <VStack>
                         <Text color='black' fontSize='30px' >3. Come valuterebbe i seguenti servizi della nostra boutique online?</Text>
-                        <Text color='black' fontSize='26px' >Descrizioni ed immagini di prodotto</Text>
+                        <Text color='black' fontSize='24px' >Descrizioni ed immagini di prodotto</Text>
                         <Radio value='1' size='md' name='3' colorScheme='gray' isRequired>
                             <Text color='black'>Pienamente Soddisfatto</Text>
                         </Radio>
