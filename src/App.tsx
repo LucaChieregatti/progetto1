@@ -32,16 +32,12 @@ function onSubmit(e: FormEvent){
     <div 
       style={{
         position: "relative",
-        background: "white",
-        border: "1px solid black",
-        borderRadius: ".5rem",
         fontFamily: "Arial"
       }}
     >
       <Box maxH="20em">
         <Image src={Gommini} maxH="20em" objectFit="fill" width="100%"/>
       </Box>
-      
       <form onSubmit={onSubmit}>
         <div style ={{position:"absolute", top: ".5rem", right:".5rem"}}>
           {currentStepIndex + 1} / {steps.length}
