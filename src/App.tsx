@@ -1,5 +1,5 @@
 import { useMultiStep } from './hook/useMultiStep';
-import { Button, Image } from '@chakra-ui/react';
+import { Button, Image, Box } from '@chakra-ui/react';
 import { ChakraProvider } from '@chakra-ui/react'
 import { FormEvent } from 'react';
 import { Domanda1 } from './componets/Domanda1';
@@ -38,7 +38,10 @@ function onSubmit(e: FormEvent){
         fontFamily: "Arial"
       }}
     >
-      <Image src={Gommini} maxH="20em" objectFit="cover"/>
+      <Box maxH="20em">
+        <Image src={Gommini} maxH="20em" objectFit="fill" width="100%"/>
+      </Box>
+      
       <form onSubmit={onSubmit}>
         <div style ={{position:"absolute", top: ".5rem", right:".5rem"}}>
           {currentStepIndex + 1} / {steps.length}
